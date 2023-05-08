@@ -1,20 +1,24 @@
 [submodule "cosmos-sdk"]
 	path = cosmos-sdk
-	url = https://github.com/terra-money/cosmos-sdk.git
-	branch = release/v0.46.11-terra.rc.5
+	url = https://github.com/cosmos/cosmos-sdk.git
+	branch = v0.45.9
 [submodule "ibc-go"]
 	path = ibc-go
 	url = https://github.com/cosmos/ibc-go.git
-	branch = release/v6.1.x
-[submodule "alliance"]
-	path = alliance
-	url = https://github.com/terra-money/alliance.git
-	branch = release/v0.1.x
-[submodule "terra"]
-	path = terra
-	url = https://github.com/terra-money/core
-	branch = upgrade/cosmos46
+	branch = release/v3.0.0
+[submodule "tendermint"]
+	path = tendermint
+	url = https://github.com/tendermint/tendermint.git
+	branch = release/v0.34.21
+[submodule "go-cyber"]
+	path = go-cyber
+	url = https://github.com/cybercongress/go-cyber
+	branch = release/v0.3.0
 [submodule "wasmd"]
 	path = wasmd
-	url = https://github.com/notional-labs/wasmd
-	branch = release/v0.30.0-sdk-v0.46.x
+	url = https://github.com/CosmWasm/wasmd
+	branch = release/v0.28.0
+[submodule "liquidity"]
+	path = liquidity
+	url = https://github.com/tendermint/liquidity
+	branch = release/v1.5.0
