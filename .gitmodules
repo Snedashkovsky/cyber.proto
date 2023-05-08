@@ -1,11 +1,11 @@
 [submodule "cosmos-sdk"]
 	path = cosmos-sdk
 	url = https://github.com/cosmos/cosmos-sdk.git
-	branch = v0.45.9
+	branch = release/v0.45.x
 [submodule "ibc-go"]
 	path = ibc-go
 	url = https://github.com/cosmos/ibc-go.git
-	branch = release/v3.0.0
+	branch = release/v3.0.x
 [submodule "tendermint"]
 	path = tendermint
 	url = https://github.com/tendermint/tendermint.git
@@ -13,12 +13,11 @@
 [submodule "go-cyber"]
 	path = go-cyber
 	url = https://github.com/cybercongress/go-cyber
-	branch = release/v0.3.0
+	branch = dragonberry
 [submodule "wasmd"]
 	path = wasmd
 	url = https://github.com/CosmWasm/wasmd
-	branch = release/v0.28.0
+	branch = 0.28.x
 [submodule "liquidity"]
 	path = liquidity
 	url = https://github.com/tendermint/liquidity
-	branch = release/v1.5.0
